@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Макет таблицы</title>
+</head>
+<body>
+<style>
+body{
+font-size: 16px;
+font-family: sans-serif;
+padding: 0;
+}
+table{
+	width: 100%;
+}
+.headFoot{
+background-color: #add8e6;
+text-align: center;
+font-size: 30px;
+text-transform: uppercase;
+color: blue;
+}
+.nav{
+background-color: #f0e68c;
+width: 200px;
+vertical-align: top;
+}
+
+.content{
+background: url(image/ball.png) repeat-y right top;
+}
+
+.bgcontent{
+float: left; 
+margin:0 20px 20px 0;
+}
+td{
+	padding: 15px;
+}
+ul{
+padding-left: 20px;
+}
+h1{
+text-align: center;
+text-transform: uppercase;
+}
+.nameNav{
+font-weight: bold;
+}
+</style>
+
+	<table>
+		<tr>
+			<td class="headFoot" colspan="2">привет участникам соревнований!</td>
+		</tr>
+		<tr>
+			<td class="nav">
+				<p class="nameNav">Виды спорта:</p>
+				<ul> 
+					<li><a href="https://ru.wikipedia.org/wiki/Конькобежный_спорт">конькобежный спорт</a></li>
+					<li><a href="https://ru.wikipedia.org/wiki/Биатлон">биатлон</a></li>
+					<li><a href="https://ru.wikipedia.org/wiki/Футбол">футбол</a></li>
+					<li><a href="https://ru.wikipedia.org/wiki/Стрельба_из_лука_(вид_спорта)">стрельба из лука</a></li>
+					<li><a href="https://ru.wikipedia.org/wiki/Прыжок_в_длину">прыжки в длину</a></li>
+					<li><a href="https://ru.wikipedia.org/wiki/Прыжок_в_высоту">прыжки в высоту</a></li>
+				</ul>
+			</td>
+			<td class="content">
+				<h1>Футбол</h1>
+				<img class="bgcontent" src="image/football.png" alt="">
+				<p>Футбол &mdash; командный вид спорта, в котором целью является забить сяч в ворота соперника ногами или другими частями тела (кроме рук) большее количество раз, чем команда соперника.</p>
+				<p>Есть 17 официальных правил игры, каждое из которых содержит список оговорок и пуководящих принципов. Эти правила предназначены для применения на всех уроовнях футбола, хотя есть некоторые изменения для таках групп, как юниоры, взрослые, женщины и люди с ограниченными физическими возможностями. Законы очень часто формулировались в общих чертах, которые позволяюст упростить их применения в зависимости от характера игры.</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="headFoot" colspan="2">главное победа, а не участие!</td>
+		</tr>
+	</table>
+</body>
+</html>
